@@ -1,0 +1,10 @@
+{
+  "enable": true,
+  "callbacks": [
+    {
+      "msgType": 1,
+      "env": "fanwechatapp",
+      "functionName": "callback"
+    }
+  ]
+}
