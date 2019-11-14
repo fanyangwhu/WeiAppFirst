@@ -1,0 +1,26 @@
+<!--miniprogram/pages/mypage/mypage.wxml-->
+<view>
+  <view class="todolist">
+    <text class="title">{{title1}}</text><br/><br/>
+    <text class="context">{{context1}}</text>
+  </view>
+  <view class="todolist">
+    <text class="title">{{title2}}</text>
+    <text class="context">{{context3}}</text>
+  </view>
+  <view class="todolist">
+    <text class="p">{{title3}}gggg</text>
+    <text class="p">{{context3}}</text>
+    <text class="p">2. 通过 wx-server-sdk 获取</text>
+    <text class="p">以下分别先后展示这两种获取方式</text>
+  </view>
+  
+  <view class="guide">
+    <text class="headline">开放数据调用{{title3}}</text>
+    <text class="title">通过 cloudID 获取敏感开放数据有以下两种方式</text>
+    <text class="p">1. 小程序端 callFunction 自动获取</text>
+    <text class="p">2. 通过 wx-server-sdk 获取</text>
+    <text class="p">以下分别先后展示这两种获取方式</text>
+  </view>
+</view>
+
